@@ -6,21 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Gabriele Granja</title>
     <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 0px)" href="small.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1000px)" href="large.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1350px)" href="medium.css">
     
 </head>
+
 <body>
+  <div class="uma-div">
     <h1 class="mainTitle"> Mega Store Granja</h1>
      
 <section class="mainContainer">
-   <div class="leftContainer">
-   <h1 class="mainTitleDescription">Vendas exclusivas <br> das melhores marcas com <br> preços de até -70%</h1>
-   </div>
-
-   <img src="img/mulher.jpg" align="middle">
- <div id="rightContainer">
-   <h1 class="mainTitleDescription">Não vai ficar de fora dessa!<br> <br><br>preencha nosso formulário<br> e receba em primeira mão nossas
-     promoções</h1>
-   <form>
+   
+  <div>
+   <p style="float: left;"><img src="img/mulher.jpg"> </p>
+   <p>Conjunto</p> 
+   <p>R$ 200,00</p>
+   <button id="bt-enviar" onclick="salvarForm()">Comprar</button>
+  </div>
+  <div style="clear: left;">
+    <p style="float: left;"><img src="img/vestido.jpg"></p>
+    <p>Vestido</p> 
+   <p>R$ 100,00</p>
+   <button id="bt-enviar" onclick="salvarForm()">Comprar</button>
+  </div>
+  <div style="clear: left;">
+    <p style="float: left;"> <img src="img/vestido2.jpg"></p>
+    <p>Vestido</p> 
+   <p>R$ 150,00</p>
+   <button id="bt-enviar" onclick="salvarForm()">Comprar</button>
+  
+  
+  </div>
+ 
+   <div id="rightContainer">
+     <h2> Faça seu cadastro e recebe nossas ofertas</h2>
+      <form>
      <input type="text" id="nome" placeholder="Nome" />
      <input type="text" id="email" placeholder="E-mail" />
      <button id="bt-enviar" onclick="salvarForm()">Cadastrar</button>
@@ -33,6 +54,9 @@
    Desafio 1- Ecommerce- Hiring_Coderes e Gama Academy - Desenvolvedora: Gabriele Granja
     
 </footer>
+</div>
 </body>
+
 <script src="js/script.js"></script>
+
 </html>

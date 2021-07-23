@@ -11,15 +11,7 @@
            
            let rightContainer = document.getElementById('rightContainer')
            
-           let carregando= `<p>Carregando...</p>`
            
-           let pronto= `<p>Pronto</p>`
-           
-           rightContainer.innerHTML = carregando
-           
-           setTimeout(() => {
-            rightContainer.innerHTML = pronto
-           }, 1000)
         }
         
        
